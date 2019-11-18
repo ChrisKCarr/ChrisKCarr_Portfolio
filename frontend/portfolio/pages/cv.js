@@ -8,7 +8,7 @@ class Cv extends React.Component {
   render() {
     return (
       <BaseLayout {...this.props.auth}>
-        <BasePage title="Preview of my CV" className="cv-page">
+        <BasePage title="Preview of my Resume" className="cv-page">
           <Row>
             <Col md={{ size: 8, offset: 2 }}>
               <div className="cv-title">
@@ -22,7 +22,7 @@ class Cv extends React.Component {
               </div>
               <iframe
                 style={{ width: "100%", height: "800px" }}
-                src="/static/jerga_cv.pdf"
+                src="/static/chris_carr.pdf"
               ></iframe>
             </Col>
           </Row>

@@ -12,14 +12,24 @@ const BaseLayout = props => {
     cannonical
   } = props;
   const headerType = props.headerType || "default";
-  const title = props.title || "Filip Jerga Portfolio";
+  const title = props.title || "Chris Carr Portfolio";
   return (
     <React.Fragment>
       <Head>
         <title>{title}</title>
         <meta
           name="description"
-          content="My name is Chris Carr and I am an experienced software engineer and freelance developer. I have a Bachelor degree in Artificial Intelligence and several years of experience working on a wide range of technologies and projects from JavaScript development to modern mobile and web applications in React and Django. Throughout my career, I have acquired advanced technical knowledge and the ability to explain programming topics clearly and in detail to a broad audience. I invite you to take my course, where I have put a lot of effort to explain web and software engineering concepts in a detailed, hands-on and understandable way."
+          content="My name is Chris Carr and I am an experienced software engineer and freelance developer. I have several years of experience working in the IT field
+          working on a wide range of technologies and projects, from
+          JavaScript and Python development to creating mobile and web
+          applications in React and Django. Throughout my career, I have acquired advanced technical
+          knowledge and the ability to explain programming concepts to
+          non-technical audiences. Having worked in governmental,
+          corporate, and freelance positions, both in office and
+          remotely, I have developed excellent communication and self
+          organization skills, being able to work with minimal super
+          vision and completing tasks on my own or in a team
+          environment."
         />
         <meta
           name="keywords"

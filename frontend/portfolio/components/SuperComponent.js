@@ -1,12 +1,11 @@
-import React from 'react';
-import BaseLayout from '../components/layouts/BaseLayout';
+import React from "react";
+import BaseLayout from "../components/layouts/BaseLayout";
 
 class SuperComponent extends React.Component {
-
   constructor(props) {
     super(props);
 
-    this.someVariable = 'Just some variable';
+    this.someVariable = "Just some variable";
   }
 
   alertName(title) {
@@ -16,9 +15,9 @@ class SuperComponent extends React.Component {
   render() {
     return (
       <BaseLayout>
-        <h1> I am Blogs Page </h1>
+        <h1> I am the Blogs Page </h1>
       </BaseLayout>
-    )
+    );
   }
 }
 

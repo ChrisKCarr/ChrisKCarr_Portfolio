@@ -17,9 +17,13 @@ class Index extends React.Component {
       "Developer",
       "Tech Lover",
       "Team Player",
-      "Course Creator",
       "React.js",
-      "Angular"
+      "Django",
+      "Node.js",
+      "Python",
+      "JavaScript",
+      "GIS",
+      "Traveller"
     ];
   }
 
@@ -48,7 +52,7 @@ class Index extends React.Component {
         className={`cover ${isFlipping ? "cover-1" : "cover-0"}`}
         {...this.props.auth}
         headerType="index"
-        title="Filip Jerga - Portfolio"
+        title="Chris Carr - Portfolio"
       >
         <div className="main-section">
           <div className="background-image">
@@ -105,7 +109,7 @@ class Index extends React.Component {
                       </span>
                     )}
                     Welcome to the portfolio website of Chris Carr. Get
-                    informed, collaborate and discover projects I was working on
+                    informed, collaborate and discover projects I have worked on
                     through the years!
                   </h1>
                 </div>

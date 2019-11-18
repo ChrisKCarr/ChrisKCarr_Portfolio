@@ -149,11 +149,11 @@ export default class Header extends React.Component {
                 <BsNavLink route="/about" title="About" />
               </NavItem>
               <NavItem className="port-navbar-item">
-                <BsNavLink route="/portfolios" title="Portfolio" />
+                <BsNavLink route="/portfolios" title="Projects" />
               </NavItem>
               {this.renderBlogMenu()}
               <NavItem className="port-navbar-item">
-                <BsNavLink route="/cv" title="Cv" />
+                <BsNavLink route="/cv" title="Resume" />
               </NavItem>
               {!isAuthenticated && (
                 <NavItem className="port-navbar-item">
