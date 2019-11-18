@@ -84,7 +84,7 @@ class Portfolios extends React.Component {
         title="Chris Carr - Learn About My Experience"
         {...this.props.auth}
       >
-        <BasePage className="portfolio-page" title="Portfolios">
+        <BasePage className="portfolio-page" title="Projects">
           {isAuthenticated && isSiteOwner && (
             <Button
               onClick={() => Router.pushRoute("/portfolios/new")}
