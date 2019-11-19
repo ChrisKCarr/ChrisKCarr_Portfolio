@@ -1,0 +1,8 @@
+I unfortunately lost my original wireframe for this project since I had to start over on it Friday, I will outline the steps I took to create my portfolio however. 
+
+- Create basepage layouts and header
+- Created buttons, authentication for the private login, and callbacks
+- worked on the portfolio page, making sure I have full CRUD on the private login side of the page, also worked with SASS so that each projects div is spaced.
+- set up MongoDB, created models, created routes
+- Worked on Blog page, again similar to the project page, making sure full CRUD was avalaible. - Worked on advanced UX imporvements, such as the flipping of the card on the home page, the fade in of text on the about page, and drop down menus on the private side. 
+-Deployed on Heroku 
